@@ -115,7 +115,7 @@ Steps 5-10 or 6-10 constitute a single search, with 13 searches recommended. If 
 
 12. After completing the 13 search iterations, run
  ~~~bash
-fusion.py <round>
+python3 fusion.py <round>
 ~~~
 for 2 rounds of posterior enhancement, with <round> set to 0 and 1, respectively.
 The generated configuration files are located in files/myconfigfusion0 and files/myconfigfusion1, respectively. Then test the  configuration files like step 8-9.
