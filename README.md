@@ -28,9 +28,7 @@ QiMeng-PerceptOS is the successor to AutoOS by the same team. Whereas AutoOS per
    
 3. Copy the .config file from the OS distribution that needs optimization to the Linux version's source code repository, then change the name  using the command below:
    ```bash
-   cp .config .config_base
-   cp .config_base files/myconfig
-   
+   cp .config .config_base  
    
 4. Init the environment
    
