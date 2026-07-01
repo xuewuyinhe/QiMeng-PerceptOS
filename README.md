@@ -5,7 +5,7 @@
 
 ---
 
-QiMeng-PerceptOS  performs semantic-aware tuning of Linux kernel compile-time configurations tailored to specific workloads(especially when the workload is new and has no documents). This work shifts the optimization paradigm of large models from static open-loop to semantically aware closed-loop, delivering targeted software performance gains. Critically, unlike conventional methods that rely solely on numerical feedback (e.g., performance metrics), QiMeng-PerceptOS prioritizes semantic signals（like software stacks）.
+QiMeng-PerceptOS  performs semantic-aware tuning of Linux kernel compile-time configurations tailored to specific workloads(especially when the workload is new and has no documents). This work shifts the optimization paradigm of large models from static open-loop to semantically aware closed-loop, delivering targeted software performance gains. Critically, unlike conventional methods that rely solely on numerical feedback (e.g., performance metrics), QiMeng-PerceptOS captures semantic signals.
 
 **Our work has been published at ICML 2026.**.
 
