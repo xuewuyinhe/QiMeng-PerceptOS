@@ -18,7 +18,7 @@ cp "outputt_${name}_${num}.txt" save
 
 cp "outputt_${name}_${num}.txt" output.txt
 
-
+cp .config_base ./files/myconfig
 
 
 python3 append.py "${name}"
