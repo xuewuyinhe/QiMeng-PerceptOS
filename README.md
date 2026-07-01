@@ -14,7 +14,7 @@ QiMeng-PerceptOS is the successor to AutoOS by the same team. Whereas AutoOS per
 - Linux kernel source code 
 - Python 3.10+
 - `.config` file from your OS distribution for initial configuration
-- LLM API key: You can use GPT-4o-mini for its fast speed, low cost, and solid performance .
+
   
 ## Quick start
 0. Make sure you can replace the configuration of the OS by mannual in your environment. 
