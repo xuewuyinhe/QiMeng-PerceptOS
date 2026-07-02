@@ -53,7 +53,11 @@ QiMeng-PerceptOS  performs semantic-aware tuning of Linux kernel compile-time co
 5. Run the following commands 
    Run python3 hardware_info/arch.py , then save the hardware information to hardware.txt in the current linux/ directory.
    
-   Run the call stack parsing script, then place the generated xx.perf file under the current linux/ directory. For details, please refer to test_commands.txt. Example: 
+   Run the call stack parsing script below
+   ~~~bash
+   perf record -e task-clock -F 99 -g -- <your benchmark test command>
+   ~~~bash
+    then mv the generated xx.perf file under the current linux/ directory. For details, please refer to test_commands.txt. Example: 
    ~~~bash
    source ab_perf.sh
    ~~~
