@@ -1,0 +1,19 @@
+Test info：
+redis-redisbenchmark
+apache-ab benchmark
+aes- cryptsetup benchmark
+PostgreSQL - pgbench
+naive rag- chromadb throughput
+
+The benchmark test commands for Redis, Apache,PostgreSQL in the experiment are as follows:
+PC ubuntu：
+redis-benchmark -n 50000 -c 25 --csv
+ab -n 1000000 -c 50 http://10.20.231.235:80/
+pgbench -c 80 -T 30 -h localhost -U postgres -d test_db
+
+PC fedora：
+redis-benchmark -n 1000000 -c 50 --csv
+ab -n 1000000 -c 50 http://127.0.0.1:80/
+pgbench -c 100 -T 60 -U postgres -d testdb
+
+For the RAG test, run the files we provide using following command：.
