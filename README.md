@@ -56,7 +56,7 @@ QiMeng-PerceptOS  performs semantic-aware tuning of Linux kernel compile-time co
    Run the call stack parsing script below
    ~~~bash
    perf record -e task-clock -F 99 -g -- <your benchmark test command>
-   ~~~bash
+   ~~~
     then mv the generated xx.perf file under the current linux/ directory. For details, please refer to test_commands.txt. Example: 
    ~~~bash
    source ab_perf.sh
