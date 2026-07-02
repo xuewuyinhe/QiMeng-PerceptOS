@@ -82,9 +82,7 @@ In the paper:
 
 ## naive rag- chromadb
 
-For RAG, first download the database we provide here：https://huggingface.co/datasets/xuewuyinhe/rag\_chromdb\_workload/resolve/main/chroma\_db\_optimized.rar.
+For RAG, first download the database we provide in huggingface：xuewuyinhe/rag\_chromdb\_workload .
 
 Next, unzip chroma\_db\_optimized.rar and move the extracted folder into the util/ directory. After that, execute '''python3 run\_rag\_benchmark.py''' to run test.
-
-
 

@@ -221,7 +221,7 @@ ask_total=0
 
 #from arch.arch import get_arch
 from soft.FlameGraph.stack import analyze_stacks
-from template.temp import PromptBuilder
+from temp.temp import PromptBuilder
 
 
 
