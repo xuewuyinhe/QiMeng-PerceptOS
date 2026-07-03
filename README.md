@@ -5,7 +5,7 @@
 
 ---
 
-QiMeng-PerceptOS  performs semantic-aware tuning of Linux kernel compile-time configurations tailored to specific workloads(especially when the workload is new and has no documents). This work shifts the optimization paradigm of large models from static open-loop to semantically aware closed-loop, delivering targeted software performance gains. Critically, unlike conventional methods that rely solely on numerical feedback (e.g., performance metrics), QiMeng-PerceptOS captures semantic signals.
+QiMeng-PerceptOS  performs semantic-aware tuning of Linux kernel compile-time configurations tailored to specific workloads(especially when the workload is new and has no documents). This work shifts the optimization paradigm of large models from static open-loop to semantically aware closed-loop, delivering targeted software performance gains. Critically, unlike conventional methods that rely solely on numerical feedback (e.g., performance metrics), QiMeng-PerceptOS captures semantic signals. We have improved Apache's performance to 1.2 to 3.2 times that of the default configuration.
 
 **Our work has been published at ICML 2026.**.
 
@@ -53,13 +53,14 @@ QiMeng-PerceptOS  performs semantic-aware tuning of Linux kernel compile-time co
 5. Run the following commands 
    Run python3 hardware_info/arch.py , then save the hardware information to hardware.txt in the current linux/ directory.
    
-   Run the call stack parsing script below
+   Run the call stack parsing script below：
    ~~~bash
    perf record -e task-clock -F 99 -g -- <your benchmark test command>
    ~~~
-    then mv the generated xx.perf file under the current linux/ directory. For details, please refer to test_commands.txt. Example: 
+   example： perf record -e task-clock -F 99 -g --  ab -n 1000000 -c 50 http://xxxx，For details, please refer to test_commands.txt
+    then mv the generated xx.perf file under the current linux/ directory. Then run the command: 
    ~~~bash
-   source ab_perf.sh
+   source perceptsoft.sh
    ~~~
     
    
