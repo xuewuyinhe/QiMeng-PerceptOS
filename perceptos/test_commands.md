@@ -90,33 +90,40 @@ Next, unzip chroma\_db\_optimized.rar and move the extracted folder into the uti
 
 input format：
 
-enhance the xxx benchmark score
+to enhance the xxx 
 
 the xxx and xxx throughput
 
 example：
+
+### apache-ab benchmark
+
 to enhance the apache benchmark score
 
 the apache-benchmark score and apache  throughput
 
+### redis-redisbenchmark:
 
 to enhance the redis benchmark score
 
 the redis-benchmark score and redis throughput
 
-
+### aes- cryptsetup benchmark:
 to enhance the cryptsetup benchmark aes algorithm score
 
 the cryptsetup aes algorithm score and aes algorithm throughput
 
+### PostgreSQL - pgbench:
+to enhance the PostgreSQL benchmark score
 
+the PostgreSQL benchmark score and PostgreSQL throughput
+
+### naive rag- chromadb
 to enhance the chroma rag(Retrieval-Augmented Generation) throughput
 
 the chroma rag  and rag(Retrieval-Augmented Generation) throughput
 
 
-to enhance the PostgreSQL benchmark score
 
-the PostgreSQL benchmark score and PostgreSQL throughput
 
 
