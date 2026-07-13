@@ -56,6 +56,8 @@ QiMeng-PerceptOS  performs semantic-aware tuning of Linux kernel compile-time co
    ~~~
    then save the hardware information to hardware.txt in the current linux/ directory.
 
+   Input your workload object in target.txt . For details, please refer to test_commands.txt
+   
    Run the call stack parsing script below：
    ~~~bash
    perf record -e task-clock -F 99 -g -- <your benchmark test command>
