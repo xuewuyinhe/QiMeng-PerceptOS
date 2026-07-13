@@ -87,24 +87,36 @@ For RAG, first download the database we provide in huggingface：xuewuyinhe/rag\
 Next, unzip chroma\_db\_optimized.rar and move the extracted folder into the util/ directory. After that, execute '''python3 run\_rag\_benchmark.py''' to run test.
 
 # target.txt 
+
 input format：
+
 enhance the xxx benchmark score
+
 the xxx and xxx throughput
 
 example：
 to enhance the apache benchmark score
+
 the apache-benchmark score and apache  throughput
 
+
 to enhance the redis benchmark score
+
 the redis-benchmark score and redis throughput
 
+
 to enhance the cryptsetup benchmark aes algorithm score
+
 the cryptsetup aes algorithm score and aes algorithm throughput
 
+
 to enhance the chroma rag(Retrieval-Augmented Generation) throughput
+
 the chroma rag  and rag(Retrieval-Augmented Generation) throughput
 
+
 to enhance the PostgreSQL benchmark score
+
 the PostgreSQL benchmark score and PostgreSQL throughput
 
 
